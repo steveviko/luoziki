@@ -7,9 +7,10 @@ import TuneOutlinedIcon from '@material-ui/icons/TuneOutlined';
 function SearchPage() {
     return (
         <div className="SearchPage">
-            <div className="SearchPage_filter"></div>
+            <div className="SearchPage_filter">
             <TuneOutlinedIcon/> 
             <h2>FILTER</h2>
+            </div>
             <hr/>
 
             <ChannelRow   
